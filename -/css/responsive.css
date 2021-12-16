@@ -1,0 +1,182 @@
+/*
+	MEDIA RULES
+*/
+
+@media screen and (max-width: 660px) {
+	#logo a {
+		display: block;
+		float: none;
+		margin: 0 auto;
+		width: 23.870967741935483870%;	/* 222px / 930px */
+	}
+	#logo i {
+		margin: 0;
+		width: auto;
+	}
+	#logo img {
+		border-top: none;
+		margin: 30px 0;
+	}
+	#nav {
+		clear: both;
+		padding-top: 0;
+	}
+	#nav li {
+		margin-right: 1.505376344086021505%;
+		width: 23.870967741935483870%;
+	}
+	#nav li#nav-contact {
+		margin-right: 0;
+	}
+	#nav a {
+		margin-top: 0;
+	}
+	#intro {
+		border: 1px solid #202020;
+		border: 1px solid rgba(0, 0, 0, 0.2);
+		border-width: 1px 0;
+		color: #555;
+		float: right;
+		margin-bottom: 2em;
+		padding: 2em 0;
+	}
+	#intro .article {
+		background: none;
+		padding: 0;
+	}
+	#intro i.cap {
+		display: none;
+	}
+	#slides {
+		display: none;
+	}
+	#blog {
+		margin: 4em 0;
+		width: 100%;
+	}
+	#blog .main,
+	#blog .aside {
+		float: none;
+		width: 100%;
+	}
+	#blog .aside {
+		border-top: 1px solid #AAA;
+		margin-top: 3em;
+		padding-top: 1em;
+		text-align: left;
+	}
+	#blog .aside p {
+		display: inline;
+	}
+	#top-rated .section {
+		margin-bottom: 2em;
+	}
+	#top-rated .last {
+		margin-bottom: 0;
+	}
+	#top-rated li {
+		width: 46.846846846846846846%;
+	}
+	#top-rated li.odd {
+		float: right;
+		clear: left;
+	}
+	#top-rated .figure span {
+		background-position: -50% 50%;
+	}
+	#footer {
+		width: 100%;
+	}
+}
+@media screen and (max-width: 340px) {
+	#logo a {
+		width: 49.247311827956989247%;	/* 458px / 930px */
+	}
+	#nav li {
+		width: 49.247311827956989247%;	/* 458px / 930px */
+	}
+	#nav li#nav-rated {
+		margin-right: 0;
+	}
+	#intro .article h1 {
+		font-size: 1em;	/* 20px / 17px (formerly 23px Omnes) */
+	}
+}
+@media screen and (min-width: 1300px) {
+	#intro,
+	#blog,
+	#top-rated {
+		width: 49.247311827956989247%;	/* 458px / 930px */
+	}
+	#logo a {
+		margin-right: 11.182795698924731182%;		/* 104px / 930px */
+		width: 11.182795698924731182%;		/* 104px / 930px */
+	}
+	#logo i {
+		margin: 0;
+		width: auto;
+	}
+	#intro {
+		background: url("/-/img/burst-lg.png") repeat-x -10% -100px;
+		border: 1px solid rgba(0, 0, 0, 0.2);
+		border-width: 1px 0;
+		color: #555;
+		float: right;
+		margin-bottom: 2em;
+		margin-top: -2.4em;
+		padding: 2em 0;
+	}
+	#intro .article {
+		background: none;
+		padding: 0;
+	}
+	#intro i.cap {
+		display: none;
+	}
+	#slides {
+		left: -1000em;
+	}
+	#blog {
+		float: left;
+		margin: 0 0 7em;
+	}
+	#blog .main,
+	#blog .aside {
+		float: none;
+		width: 100%;
+	}
+	#blog .aside {
+		border-top: 1px solid #AAA;
+		margin-top: 3em;
+		padding-top: 1em;
+		text-align: left;
+	}
+	#blog .aside p {
+		display: inline;
+	}
+	#top-rated {
+		clear: right;
+		float: right;
+	}
+	#top-rated .section {
+		float: left;
+		width: 48.471615720524017467%;
+	}
+	#top-rated .last {
+		float: right;
+	}
+	#top-rated li,
+	#top-rated li.odd {
+		width: 46.846846846846846846%;
+	}
+	#top-rated li {
+		margin-right: 0;
+		float: right;
+	}
+	#top-rated li.odd {
+		float: left;
+	}
+	#top-rated .figure span {
+		background-position: -50% 50%;
+	}
+}

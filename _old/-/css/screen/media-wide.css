@@ -1,0 +1,47 @@
+.nav {
+	position: absolute;
+	left: -1000em;
+	top: 0;
+}
+#nav-primary {
+	position: static;
+}
+
+/*
+	BLOG
+*/
+
+#blog {
+	float: left;
+	margin-left: 22.5806452%;	/* 210px / 930px */
+	width: 54.8387097%;	/* 510px / 930px */
+}
+#blog .header,
+#blog .article,
+#blog .aside {
+	float: none;
+	width: 100%;
+}
+#blog .aside {
+	text-align: left;
+}
+#blog .article div,
+#blog .article div.figure {
+	margin-right: 0;
+}
+#blog .article div.figure {
+	margin-bottom: 1em;
+	margin-left: 2.94117647%;	/* 15px / 510px */
+	width: 38.2352941%;	/* 195px / 510px */
+}
+
+/*
+	TOP RATED
+*/
+#top-rated {
+	display: none;
+}
+#droids {
+	float: left;
+	width: 21.4285714%;
+}

@@ -1,0 +1,10 @@
+ul.nav,
+.section,
+#top-rated,
+#top-rated a {
+	zoom: 1;
+}
+
+#intro {
+	clear: both;
+}

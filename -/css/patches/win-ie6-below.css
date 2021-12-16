@@ -1,0 +1,8 @@
+#intro .article,
+#intro .main,
+#top-rated .section {
+	zoom: 1;
+}
+#slides {
+	height: expression(this.parentNode.clientHeight + "px"); /* Ugh. */
+}

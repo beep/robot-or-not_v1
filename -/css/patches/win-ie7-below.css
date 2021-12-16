@@ -1,0 +1,12 @@
+#nav li {
+	width: 18.75%;		/* 180px / 960px */
+}
+#logo img,
+#slides img,
+.figure img {
+	width: 100%;
+}
+#intro i.cap {
+	height: 100%;
+	width: 17.647058823529411764%;	/* 75px / 850px (hypothetical) */
+}

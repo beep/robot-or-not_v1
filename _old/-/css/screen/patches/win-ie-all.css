@@ -1,0 +1,17 @@
+/*-  SELF-CLEARING FLOATS
+----------------------------------------------------------------------*/
+.section,
+.nav div {
+	zoom: 1;
+}
+
+/*
+	Cleartype + @font-family fix for IE
+*/
+#blog .header {
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="/-/img/x.gif", sizingMethod=crop);
+	zoom: 1;
+}
+#blog .header {
+	line-height: 1.1;
+}
